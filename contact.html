@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario de Peliculas</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	
+</head>
+<body>
+<header> 
+
+	<form action="action_page.php" method="post" onsubmit="return validar(this);">
+		<p>
+			<label for="peliculas">Pelicula</label>
+			<input id="pelicula" name="pelicula" type="text">
+		</p>
+		<p>
+			<label for="local">Local</label>
+			<input id="local" name="local" type="text">
+		</p>
+		<p>
+			<label for="Entradas">Numero de Entradas</label>
+			<input id="entrada" name="entrada" type="text">
+		</p>
+		<p>
+			<label for="Precio">Precio</label>
+			<input id="precio" name="precio" type="text" SIZE=5>
+		</p>
+		<p>
+			<label for="Nom Tarjeta">Nombre de Tarjeta</label>
+			<input id="ntarjeta" name="ntarjeta" type="text">
+		</p>
+		<p>
+	
+
+			<label for="Numero Tarjeta">Numero de Tarjeta</label>
+			<input id="numtarjeta" name="numtarjeta" type="text">
+
+		</p>
+				<p>
+			<input type="submit" value="Comprar Pelicula">
+		</p>
+	</form>
+<script >
+  	function validar() { 
+		if(form1.nombre == "") { alert('Debes poner el nombre') ; return false ; } 
+		if(form1.telefono == "") { alert('Debes poner el telefono') ; return false ; } 
+		} 
+</script>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

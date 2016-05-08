@@ -1,0 +1,18 @@
+Detalle Calificacion   12.5/27
+Requisitos Funcionales (15 Puntos): 6.5 (5 por pagina) (5 + 5 + 1.5) = 11.5 - 5 Por no poner la estructura de datos de arreglo de locales y arreglo de peliculas. Este era el punto del Ejercicio.
+Errores Manejados o no tiene en consola (2 Puntos): 1 Punto. Tiene errores en la consola pero no afectan el funcionamiento del programa.
+Buen Uso de Funciones, Ciclos y DRY (2 Puntos): 0 Puntos. Paginas repetidas y sin razon, con nombres cambiados que no corresponden a la tematica de la pagina. Tiene mucho codigo JS inutil para este proyecto.
+Buen Uso de Jquery y Galeria (2.5 Puntos): 2.0 Puntos. Galeria funciona como debe. Muy bien. No uso JQuery para dar contenido dinamico al formulario de compra.
+Uso de los media Queries (2.5 Puntos): 1.5 Puntos. Si tiene Media queries pero solo para el menu movil y este menu no funciona bien.
+Comentarios (1 Punto): 0 Puntos. No puso ningun comentario adicional a los que yo ya tenia en mi proyecto.
+Pagina con buena estetica (1 Punto): 1 Punto. Me gusto mucho su diseno y eleccion de colores.
+Subio bien a github (1 Punto bonus): 1 Punto.
+Total: 12.5
+
+Comentarios Profesor
+No hay manera de salir de la pagina de formulario.
+No utilizo la estrutura de datos dada con Arreglo de peliculas y de locales, fue penalizado con -5.
+Tiene errores de refencias a archivos CSS que no esta utilizando.
+Tiene Paginas adicionales en su sitio que son duplicados o paginas innecesarias, eso es muy mala practica. Esas paginas confunden al usuario y a mi, como se cuales calificar?
+No utilizo el arreglo de peliculas ni el arreglo de locales.
+Su JS esta muy copiado de mi codigo y no tiene nada que ver con el tema, no puede reutilizar el codigo o cambiarlo para el proposito necesitado? Esto es TERRIBLE.
